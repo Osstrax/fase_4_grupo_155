@@ -1,0 +1,46 @@
+2026-11-08 19:35:41,631 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-08 19:35:41,631 - INFO - Cliente registrado: Maria Lopez
+2026-11-08 19:35:41,631 - ERROR - Cliente invalido: El nombre es obligatorio.
+2026-11-08 19:35:41,631 - ERROR - Error registrando cliente: El cliente ya esta registrado.
+2026-11-08 19:35:41,631 - INFO - Servicio registrado: Sala de reuniones
+2026-11-08 19:35:41,631 - INFO - Servicio registrado: Computador portatil
+2026-11-08 19:35:41,631 - INFO - Servicio registrado: Asesoria informatica
+2026-11-08 19:35:41,631 - ERROR - Servicio invalido: La tarifa debe ser mayor que cero.
+2026-11-08 19:35:41,631 - INFO - Reserva creada: R001
+2026-11-08 19:35:41,632 - INFO - Reserva R001 confirmada. Costo: 107100.00
+2026-11-08 19:35:41,632 - INFO - Reserva creada: R002
+2026-11-08 19:35:41,632 - INFO - Reserva R002 confirmada. Costo: 75000.00
+2026-11-08 19:35:41,632 - INFO - Reserva creada: R003
+2026-11-08 19:35:41,632 - INFO - Reserva R003 confirmada. Costo: 120000.00
+2026-11-08 19:35:41,632 - ERROR - Error creando reserva: El cliente solicitado no existe.
+2026-11-08 19:35:41,632 - INFO - Disponibilidad del servicio Computador portatil: False
+2026-11-08 19:35:41,632 - INFO - Reserva creada: R005
+2026-11-08 19:35:41,632 - ERROR - Error al confirmar reserva R005: El servicio Computador portatil no esta disponible.
+2026-11-08 19:35:41,632 - INFO - Reserva R001 cancelada.
+2026-11-08 19:35:41,633 - ERROR - Error al confirmar reserva R001: La reserva no se encuentra pendiente.
+2026-11-08 19:35:41,633 - ERROR - Calculo incorrecto: El descuento debe estar entre 0 y 100.
+2026-11-08 19:35:41,633 - ERROR - Error creando reserva: El identificador de reserva ya existe.
+2026-11-08 19:35:41,633 - INFO - Ejecucion del sistema finalizada.
+2026-11-08 20:19:59,697 - INFO - Cliente registrado: Carlos Ramirez
+2026-11-08 20:19:59,698 - INFO - Cliente registrado: Maria Lopez
+2026-11-08 20:19:59,698 - ERROR - Cliente invalido: El nombre es obligatorio.
+2026-11-08 20:19:59,698 - ERROR - Error registrando cliente: El cliente ya esta registrado.
+2026-11-08 20:19:59,698 - INFO - Servicio registrado: Sala de reuniones
+2026-11-08 20:19:59,698 - INFO - Servicio registrado: Computador portatil
+2026-11-08 20:19:59,698 - INFO - Servicio registrado: Asesoria informatica
+2026-11-08 20:19:59,698 - ERROR - Servicio invalido: La tarifa debe ser mayor que cero.
+2026-11-08 20:19:59,698 - INFO - Reserva creada: R001
+2026-11-08 20:19:59,698 - INFO - Reserva R001 confirmada. Costo: 107100.00
+2026-11-08 20:19:59,698 - INFO - Reserva creada: R002
+2026-11-08 20:19:59,698 - INFO - Reserva R002 confirmada. Costo: 75000.00
+2026-11-08 20:19:59,698 - INFO - Reserva creada: R003
+2026-11-08 20:19:59,698 - INFO - Reserva R003 confirmada. Costo: 120000.00
+2026-11-08 20:19:59,698 - ERROR - Error creando reserva: El cliente solicitado no existe.
+2026-11-08 20:19:59,698 - INFO - Disponibilidad del servicio Computador portatil: False
+2026-11-08 20:19:59,698 - INFO - Reserva creada: R005
+2026-11-08 20:19:59,698 - ERROR - Error al confirmar reserva R005: El servicio Computador portatil no esta disponible.
+2026-11-08 20:19:59,698 - INFO - Reserva R001 cancelada.
+2026-11-08 20:19:59,698 - ERROR - Error al confirmar reserva R001: La reserva no se encuentra pendiente.
+2026-11-08 20:19:59,698 - ERROR - Calculo incorrecto: El descuento debe estar entre 0 y 100.
+2026-11-08 20:19:59,699 - ERROR - Error creando reserva: El identificador de reserva ya existe.
+2026-11-08 20:19:59,699 - INFO - Ejecucion del sistema finalizada.

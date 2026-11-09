@@ -3,7 +3,13 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 import logging
 import math
-
+from excepciones import (
+    ErrorSistema,
+    DatoInvalidoError,
+    ServicioNoDisponibleError,
+    ReservaInvalidaError,
+    OperacionNoPermitidaError
+)
 
 # ==========================================================
 # 1. CONFIGURACION DEL ARCHIVO DE REGISTROS
@@ -15,31 +21,6 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
     encoding="utf-8"
 )
-
-
-# ==========================================================
-# 2. EXCEPCIONES PERSONALIZADAS
-# ==========================================================
-
-class ErrorSistema(Exception):
-    pass
-
-
-class DatoInvalidoError(ErrorSistema):
-    pass
-
-
-class ServicioNoDisponibleError(ErrorSistema):
-    pass
-
-
-class ReservaInvalidaError(ErrorSistema):
-    pass
-
-
-class OperacionNoPermitidaError(ErrorSistema):
-    pass
-
 
 # ==========================================================
 # 3. CLASE ABSTRACTA ENTIDAD

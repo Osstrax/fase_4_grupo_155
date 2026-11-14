@@ -2,7 +2,7 @@ import unittest
 import sys
 import os
 
-# Importamos las clases del archivo principal
+# Importación de las clases del sistema principal
 from software_fj import (
     Cliente, ReservaSala, AlquilerEquipo, AsesoriaEspecializada, 
     Reserva, SoftwareFJ, DatoInvalidoError, ReservaInvalidaError
@@ -21,11 +21,8 @@ class TestSoftwareFJ(unittest.TestCase):
 
     def test_registro_cliente_duplicado(self):
         """Prueba que el sistema no permita registrar dos clientes con el mismo ID."""
-        # Intentamos registrar un cliente con el mismo ID "C100"
         cliente_duplicado = Cliente("C100", "Otro Nombre", "otro@test.com", "3109876543")
         self.sistema.registrar_cliente(cliente_duplicado)
-        
-        # Verificamos que solo haya 1 cliente en el sistema
         self.assertEqual(len(self.sistema._SoftwareFJ__clientes), 1)
 
     def test_creacion_reserva_exitosa(self):
@@ -33,7 +30,7 @@ class TestSoftwareFJ(unittest.TestCase):
         reserva = self.sistema.crear_reserva("R100", "C100", "S100", 2, capacidad=10)
         reserva.confirmar()
         self.assertEqual(reserva.estado, "Confirmada")
-        self.assertEqual(reserva.costo, 100000.0) # 2 horas * 50000
+        self.assertEqual(reserva.costo, 100000.0) 
 
     def test_error_reserva_cliente_inexistente(self):
         """Prueba que el sistema lance una excepción si el cliente no existe."""

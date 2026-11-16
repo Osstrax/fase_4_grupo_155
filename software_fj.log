@@ -81,3 +81,47 @@
 2026-11-16 11:51:58,001 - ERROR - Calculo incorrecto: El descuento debe estar entre 0 y 100.
 2026-11-16 11:51:58,001 - ERROR - Error creando reserva: El identificador de reserva ya existe.
 2026-11-16 11:51:58,002 - INFO - Ejecucion del sistema finalizada.
+2026-11-16 13:43:25,885 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:43:25,885 - INFO - Cliente registrado: Carlos Ramirez (C001)
+2026-11-16 13:43:25,885 - INFO - Cliente registrado: Maria Lopez (C002)
+2026-11-16 13:43:25,885 - ERROR - Captura de cliente invalido: El nombre es obligatorio.
+2026-11-16 13:43:25,886 - ERROR - Error al registrar cliente: El cliente ya esta registrado.
+2026-11-16 13:43:25,886 - INFO - Servicio registrado: Sala de juntas principal (S001)
+2026-11-16 13:43:25,886 - INFO - Servicio registrado: Portatil para desarrollo (S002)
+2026-11-16 13:43:25,886 - INFO - Servicio registrado: Consultoria en arquitectura de software (S003)
+2026-11-16 13:43:25,886 - ERROR - Captura de servicio invalido: La tarifa debe ser mayor que cero.
+2026-11-16 13:43:25,886 - INFO - Reserva creada con ID R001 para cliente C001
+2026-11-16 13:43:25,886 - INFO - Reserva R001 confirmada exitosamente. Costo: 107100.0
+2026-11-16 13:43:25,886 - INFO - Reserva creada con ID R002 para cliente C002
+2026-11-16 13:43:25,887 - INFO - Reserva R002 confirmada exitosamente. Costo: 75000.0
+2026-11-16 13:43:25,887 - INFO - Reserva creada con ID R003 para cliente C001
+2026-11-16 13:43:25,887 - INFO - Reserva R003 confirmada exitosamente. Costo: 120000.0
+2026-11-16 13:43:25,887 - ERROR - Error controlado creando reserva: El cliente solicitado no existe.
+2026-11-16 13:43:25,887 - INFO - Disponibilidad del servicio Portatil para desarrollo: False
+2026-11-16 13:43:25,887 - INFO - Reserva creada con ID R005 para cliente C001
+2026-11-16 13:43:25,887 - ERROR - Fallo al confirmar la reserva R005: El servicio Portatil para desarrollo no esta disponible.
+2026-11-16 13:43:25,887 - INFO - Reserva R001 cancelada.
+2026-11-16 13:43:25,887 - ERROR - Fallo al confirmar la reserva R001: No se puede confirmar una reserva en estado 'Cancelada'.
+2026-11-16 13:43:25,888 - ERROR - Captura de calculo invalido: El descuento debe estar entre 0 y 100.
+2026-11-16 13:43:25,888 - ERROR - Error controlado creando reserva: El identificador de reserva ya existe.
+2026-11-16 13:43:25,888 - ERROR - Error controlado creando reserva: La capacidad de la sala es invalida.
+2026-11-16 13:43:25,888 - INFO - Ciclo de ejecucion del sistema Software FJ completado.
+2026-11-16 13:44:18,939 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:44:18,939 - INFO - Cliente registrado: Test User (C100)
+2026-11-16 13:44:18,939 - INFO - Servicio registrado: Sala Test (S100)
+2026-11-16 13:44:18,940 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:44:18,940 - INFO - Cliente registrado: Test User (C100)
+2026-11-16 13:44:18,940 - INFO - Servicio registrado: Sala Test (S100)
+2026-11-16 13:44:18,940 - INFO - Reserva creada con ID R100 para cliente C100
+2026-11-16 13:44:18,940 - INFO - Reserva R100 confirmada exitosamente. Costo: 100000.0
+2026-11-16 13:44:18,940 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:44:18,940 - INFO - Cliente registrado: Test User (C100)
+2026-11-16 13:44:18,940 - INFO - Servicio registrado: Sala Test (S100)
+2026-11-16 13:44:18,940 - ERROR - Error controlado creando reserva: El cliente solicitado no existe.
+2026-11-16 13:44:18,940 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:44:18,940 - INFO - Cliente registrado: Test User (C100)
+2026-11-16 13:44:18,941 - INFO - Servicio registrado: Sala Test (S100)
+2026-11-16 13:44:18,941 - ERROR - Error al registrar cliente: El cliente ya esta registrado.
+2026-11-16 13:44:18,941 - INFO - Sistema Software FJ iniciado en memoria.
+2026-11-16 13:44:18,941 - INFO - Cliente registrado: Test User (C100)
+2026-11-16 13:44:18,941 - INFO - Servicio registrado: Sala Test (S100)

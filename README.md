@@ -16,6 +16,17 @@ Desarrollo de un sistema orientado a objetos en Python para la empresa "Software
 
 El sistema opera en memoria (sin base de datos) y su objetivo principal es garantizar estabilidad y tolerancia a fallos mediante el uso de excepciones personalizadas y el registro de eventos y errores en un archivo de bitácora (`software_fj.log`).
 
+## Arquitectura Modular
+Para evitar un archivo monolítico y garantizar la separación de responsabilidades, el sistema se estructura en módulos independientes:
+
+```mermaid
+flowchart TD
+    E["excepciones.py (Alarmas del sistema)"] --> M["modelos.py (Cliente, Servicios, Reserva)"]
+    M --> S["sistema.py (Controlador SoftwareFJ y Logs)"]
+    E --> S
+    S --> P["main.py (Las 20 pruebas de simulación)"]
+```
+
 ## Reglas de Uso del Repositorio y Trabajo en Equipo
 Para mantener el orden y cumplir con las evidencias de trabajo colaborativo en GitHub:
 
